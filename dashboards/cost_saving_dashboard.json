@@ -1,0 +1,15 @@
+{
+  "title": "Cost-Saving Dashboard",
+  "description": "Snowsight Export: Monitor warehouse credits and optimizations",
+  "widgets": [
+    {
+      "type": "bar_chart",
+      "query": "SELECT WAREHOUSE_NAME, SUM(CREDITS_USED) AS CREDITS FROM ACCOUNT_USAGE.WAREHOUSE_METERING_HISTORY WHERE START_TIME >= DATEADD(DAY, -7, CURRENT_TIMESTAMP()) GROUP BY 1 ORDER BY 2 DESC;",
+      "title": "Weekly Credit Usage"
+    },
+    {
+      "type": "text",
+      "content": "Pro Tip: Auto-suspend warehouses to save £1,200/month. See scripts/auto_scale.py"
+    }
+  ]
+}
