@@ -1,7 +1,7 @@
 # Snowflake 30-Day Admin Mastery Plan
 
 **For Oracle/SQL Server DBAs → Snowflake Admin**  
-*By Kumar BRK (@kumarbrk03) | 20+ Years Experience | UK Focus*  
+*By Ravi Boppudi | 20+ Years Experience | UK Focus*  
 
 This repo is your **hands-on roadmap** to Snowflake Admin proficiency in 30 days. Includes scripts, dashboards, and cert prep. Goal: SnowPro Core Certified + Portfolio for £120K+ roles.
 
@@ -71,7 +71,4 @@ This repo is your **hands-on roadmap** to Snowflake Admin proficiency in 30 days
 - Deploy dashboard to Snowsight → Share link on LinkedIn
 - Add to Resume: "Built ETL pipeline saving 20% compute costs"
 
-**Contribute?** Fork & PR! Questions: @kumarbrk03 on X.
-
----
-*Built Nov 2025 | Inspired by Grok*
+**Contribute?** Fork & PR! 
